@@ -8,11 +8,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<div class="container">
-  <%= yield %>
-</div>
-  <div class="navbar navbar-fixed-top">
+<div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
       <a class="brand" href="/">The Idea app</a>
@@ -22,10 +18,14 @@
     </div>
   </div>
 </div>
+  <div class="container">
+  <%= yield %>
+</div>
   <footer>
   <div class="container">
     App1 2015
   </div>
 </footer>
+
 </body>
 </html>
